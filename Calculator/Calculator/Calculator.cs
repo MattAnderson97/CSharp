@@ -80,12 +80,104 @@ namespace Calculator
 
         private static void DisplaySquare()
         {
-            throw new NotImplementedException();
+            bool quit = false;
+
+            while (!quit)
+            {
+                bool done = false;
+                double userNum = 0;
+                double result = 0;
+
+                Console.Clear();
+                while (!done)
+                {
+                    Console.WriteLine("Please enter a number or enter b to go back");
+                    Console.Write("> ");
+                    string userInput = Console.ReadLine();
+                    Console.WriteLine();
+
+                    switch (double.TryParse(userInput, out userNum))
+                    {
+                        case true:
+                            result = Math.Pow(userNum, 2);
+                            done = true;
+                            break;
+                        case false:
+                            if (userInput == "b" || userInput == "B")
+                            {
+                                quit = true;
+                                done = true;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Please enter a valid number or b to quit");
+                                Console.WriteLine();
+                            }
+                            break;
+                    }
+                }
+                if (!quit)
+                {
+                    Console.WriteLine("{0} squared is {1}", userNum, result);
+                }
+
+                Console.WriteLine();
+                Console.Write("Press any key to continue ");
+                Console.ReadLine();
+            }
+
+            Main();
         }
 
         private static void DisplaySquareRoot()
         {
-            throw new NotImplementedException();
+            bool quit = false;
+
+            while (!quit)
+            {
+                bool done = false;
+                double userNum = 0;
+                double result = 0;
+
+                Console.Clear();
+                while (!done)
+                {
+                    Console.WriteLine("Please enter a number or enter b to go back");
+                    Console.Write("> ");
+                    string userInput = Console.ReadLine();
+                    Console.WriteLine();
+
+                    switch (double.TryParse(userInput, out userNum))
+                    {
+                        case true:
+                            result = Math.Sqrt(userNum);
+                            done = true;
+                            break;
+                        case false:
+                            if (userInput == "b" || userInput == "B")
+                            {
+                                quit = true;
+                                done = true;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Please enter a valid number or b to quit");
+                                Console.WriteLine();
+                            }
+                            break;
+                    }
+                }
+                if (!quit)
+                {
+                    Console.WriteLine("The square root of {0} is {1}", userNum, result);
+                }
+
+                Console.WriteLine();
+                Console.Write("Press any key to continue ");
+                Console.ReadLine();
+            }
+
+            Main();
         }
 
         private static void DisplayDivision()

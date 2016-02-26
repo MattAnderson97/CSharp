@@ -4,3 +4,9 @@ C:\Users\Matthew\My Documents\C#\Calculator\Calculator\bin\Debug\Calculator.pdb
 C:\Users\Matthew\My Documents\C#\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\My Documents\C#\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\Matthew\My Documents\C#\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Matthew\Documents\GitHub\CSharp\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
