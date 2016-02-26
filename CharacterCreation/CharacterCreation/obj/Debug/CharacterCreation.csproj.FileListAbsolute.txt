@@ -1,0 +1,6 @@
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\bin\Debug\CharacterCreation.exe.config
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\bin\Debug\CharacterCreation.exe
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\bin\Debug\CharacterCreation.pdb
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\obj\Debug\CharacterCreation.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\obj\Debug\CharacterCreation.exe
+C:\Users\Matthew\My Documents\C#\CharacterCreation\CharacterCreation\obj\Debug\CharacterCreation.pdb
